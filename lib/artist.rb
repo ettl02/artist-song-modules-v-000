@@ -14,9 +14,8 @@ class Artist
   #   @@artists.detect{|a| a.name == name}
   # end
 
-  def initialize
-    @@artists << self
-    @songs = []
+  def self.all
+    @@artists 
   end
 
   def self.all
