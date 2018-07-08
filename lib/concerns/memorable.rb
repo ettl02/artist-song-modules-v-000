@@ -1,5 +1,3 @@
-
-
 module Memorable
   module ClassMethods
 
